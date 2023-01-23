@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Nunito", sans-serif;
+  }
+
+  .home .container .home-box .box h1 {
+     line-height: 1.2;
+  }
+
+  .home .container .home-box .box p {
+     line-height: 2;
+  }
+
+  .obat .container .obat-box .box ul li {
+     line-height: 80px;
+  }
+
+
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: #0d9488;
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav-link {
+      transform: scale(0);
+      transform-origin: top;
+      opacity: 0;
+      transition: 0.3s ease;
+    }
+
+    .nav-link.nav-active {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
