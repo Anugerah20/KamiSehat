@@ -1,215 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KamiSehat</title>
 
-    <!-- FAVICON -->
-    <link
-      rel="shortcut icon"
-      href="assets/icon/HealthCheckup.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KamiSehat</title>
 
-    <!-- LINK CSS -->
-    <link rel="stylesheet" href="../src/dist/css/output.css" />
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/icon/HealthCheckup.png" type="image/x-icon" />
 
-    <!-- JONSUH HAMBURGER -->
-    <link rel="stylesheet" href="../src/dist/css/hamburgers.css" />
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="../src/dist/css/output.css" />
 
-    <!-- FONT GOOGLE  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- JONSUH HAMBURGER -->
+  <link rel="stylesheet" href="../src/dist/css/hamburgers.css" />
 
-    <!-- FONTAWESOME CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <!-- ! START: NAVIGASI -->
-    <div class="navigasi py-4 px-4">
-      <div class="container lg:mx-auto">
-        <div class="navigasi-box flex justify-between items-center">
-          <div class="logo flex items-center">
-            <img
-              class="md:w-14 w-12 cursor-pointer"
-              src="assets/icon/HealthCheckup.png"
-              alt="icons8"
-            />
-            <h1
-              class="font-extrabold md:text-3xl text-xl cursor-pointer text-slate-900"
-            >
-              KamiSehat
-            </h1>
-          </div>
-          <ul
-            class="nav-link flex gap-x-6 items-center font-medium md:flex-row flex-col md:bg-transparent bg-black md:text-black text-white md:w-auto w-full md:static absolute top-20 left-0 z-10"
-          >
-            <li class="w-full md:text-left text-center py-4">
-              <a
-                class="hover:text-blue-400 transition-all duration-300"
-                href="index.html"
-                >Beranda</a
-              >
-            </li>
-            <li class="w-full md:text-left text-center py-4">
-              <a
-                class="hover:text-blue-400 transition-all duration-300"
-                href="pelayanan.html"
-                >Pelayanan</a
-              >
-            </li>
-            <li class="w-full md:text-left text-center py-4">
-              <a
-                class="hover:text-blue-400 transition-all duration-300"
-                href="obat.html"
-                >Obat</a
-              >
-            </li>
-            <li class="w-full md:text-left text-center py-4">
-              <a
-                class="text-blue-400 transition-all duration-300"
-                href="artikel.html"
-                >Artikel</a
-              >
-            </li>
-            <li class="w-full md:text-left text-center py-4">
-              <a
-                class="px-3 py-2 rounded-md font-bold text-white bg-blue-500 transition-all duration-300"
-                href="dokter.html"
-                >Dokter</a
-              >
-            </li>
-          </ul>
+  <!-- FONT GOOGLE  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
 
-          <div class="md:hidden">
-            <button class="hamburger hamburger--boring" type="button">
-              <span class="hamburger-box">
-                <span
-                  class="hamburger-inner bg-black before:bg-black after:bg-black"
-                ></span>
-              </span>
-            </button>
-          </div>
+  <!-- FONTAWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
+<body>
+  <!-- ! START: NAVIGASI -->
+  <div class="navigasi py-4 px-4">
+    <div class="container lg:mx-auto">
+      <div class="navigasi-box flex justify-between items-center">
+        <div class="logo flex items-center">
+          <img class="md:w-14 w-12 cursor-pointer" src="assets/icon/HealthCheckup.png" alt="icons8" />
+          <h1 class="font-extrabold md:text-3xl text-xl cursor-pointer text-slate-900">
+            KamiSehat
+          </h1>
+        </div>
+        <ul
+          class="nav-link flex gap-x-6 items-center font-medium md:flex-row flex-col md:bg-transparent bg-black md:text-black text-white md:w-auto w-full md:static absolute top-20 left-0 z-10">
+          <li class="w-full md:text-left text-center py-4">
+            <a class="hover:text-blue-400 transition-all duration-300" href="index.html">Beranda</a>
+          </li>
+          <li class="w-full md:text-left text-center py-4">
+            <a class="hover:text-blue-400 transition-all duration-300" href="pelayanan.html">Pelayanan</a>
+          </li>
+          <li class="w-full md:text-left text-center py-4">
+            <a class="hover:text-blue-400 transition-all duration-300" href="obat.html">Obat</a>
+          </li>
+          <li class="w-full md:text-left text-center py-4">
+            <a class="text-blue-400 transition-all duration-300" href="artikel.html">Artikel</a>
+          </li>
+          <li class="w-full md:text-left text-center py-4">
+            <a class="px-3 py-2 rounded-md font-bold text-white bg-blue-500 transition-all duration-300"
+              href="dokter.html">Dokter</a>
+          </li>
+        </ul>
+
+        <div class="md:hidden">
+          <button class="hamburger hamburger--boring" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner bg-black before:bg-black after:bg-black"></span>
+            </span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ! END: NAVIGASI -->
+
+  <!-- ! START: HOME -->
+  <div class="home min-h-screen flex justify-between items-center lg:mt-0 mt-10">
+    <div class="container mx-auto px-4">
+      <div class="home-box flex md:flex-row flex-col items-center gap-10">
+        <div class="box lg:w-1/2 md:text-left text-center">
+          <h1 class="md:text-5xl text-2xl font-semibold mb-9 text-gray-800">Bersama-sama Kita Bersatu Untuk Menjadi
+            Orang Yang Peduli Kesehatan</h1>
+          <p class="md:text-[22px] text-base text-gray-800 mb-9">
+            Cek kesehatanmu, Baca artikel, Cek obat, Konsultasi ke dokter, kini KamiSehat sudah tersedia layanan yang
+            kamu butuhkan.
+          </p>
+          <a class="px-8 py-3 rounded-md text-white hover:font-bold transition-all duration-200 bg-blue-500"
+            href="#">TANYA DOKTER</a>
+        </div>
+        <div class="box lg:w-1/2">
+          <img class="w-[600px] h-[400px] block ml-auto" src="assets/image/home-medical.svg" alt="icons8">
         </div>
       </div>
     </div>
-    <!-- ! END: NAVIGASI -->
+  </div>
+  <!-- ! END: HOME -->
 
-    <!-- ! START: HOME -->
-    <div class="home min-h-screen flex justify-between items-center lg:mt-0 mt-10">
-      <div class="container mx-auto px-4">
-        <div class="home-box flex md:flex-row flex-col items-center gap-10">
-          <div class="box lg:w-1/2 md:text-left text-center">
-            <h1 class="md:text-5xl text-2xl font-semibold mb-9 text-gray-800">Bersama-sama Kita Bersatu Untuk Menjadi Orang  Yang Peduli Kesehatan</h1>
-            <p class="md:text-[22px] text-base text-gray-800 mb-9">
-              Cek kesehatanmu, Baca artikel, Cek obat, Konsultasi ke dokter, kini KamiSehat sudah tersedia layanan yang kamu butuhkan.
+  <!-- ! START: ARTIKEL -->
+  <div class="artike py-32">
+    <div class="container mx-auto px-4">
+      <div class="artikel-box">
+        <div class="box">
+          <h2 class="md:text-4xl text-2xl font-medium md:text-left text-center">Artikel Terbaru</h2>
+        </div>
+        <div class="box grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
+          <div class="artikel-one shadow-lg p-10">
+            <div class="img-artikel">
+              <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
+            </div>
+            <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">HIDUP SEHAT</span>
+            <a href="https://www.alodokter.com/ketahui-manfaat-kalium-bagi-tubuh" target="_blank">
+              <h4 class="mt-5 text-xl text-gray-900 font-bold">Ketahui Manfaat Kalium bagi Tubuh</h4>
+            </a>
+            <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Kalium atau potasium merupakan salah satu jenis
+              mineral yang dibutuhkan oleh tubuh. Ada beragam manfaat kalium bagi kesehatan tubuh...</p>
+          </div>
+
+          <div class="artikel-two shadow-lg p-10">
+            <div class="img-artikel">
+              <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
+            </div>
+            <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">HIDUP SEHAT</span>
+            <a href="https://www.alodokter.com/manfaat-madu-ditinjau-dari-sisi-medis" target="_blank">
+              <h4 class="mt-5 text-xl text-gray-900 font-bold">6 Manfaat Madu bagi Kesehatan</h4>
+            </a>
+            <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Manfaat madu bagi kesehatan memang sudah tidak
+              diragukan lagi. Cairan manis yang diproduksi oleh lebah ini berkhasiat dalam...</p>
+          </div>
+
+          <div class="artikel-three shadow-lg p-10">
+            <div class="img-artikel">
+              <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
+            </div>
+            <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN</span>
+            <a href="https://www.alodokter.com/penyebab-buang-air-besar-berlendir-dan-penanganannya" target="_blank">
+              <h4 class="mt-5 text-xl text-gray-900 font-bold">5 Penyebab Buang Air Besar Berlendir dan Penanganannya
+              </h4>
+            </a>
+            <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Buang air besar berlendir bukanlah perkara yang
+              harus dikhawatirkan jika jumlah lendirnya tidak banyak atau tidak disertai keluhan lain...</p>
+          </div>
+
+          <div class="artikel-four shadow-lg p-10">
+            <div class="img-artikel">
+              <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
+            </div>
+            <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN</span>
+            <a href="https://www.alodokter.com/ingin-tahu-kondisi-kesehatan-tubuh-coba-cek-feses-anda">
+              <h4 class="mt-5 text-xl text-gray-900 font-bold">Cek Tekstur dan Warna Feses untuk Mengetahui Kondisi
+            </a>
+            Kesehatan Tubuh</h4>
+            <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Sebagian orang mungkin tidak mengetahui bahwa
+              tekstur dan warna feses bisa menjadi gambaran kondisi tubuh...</p>
+          </div>
+        </div>
+
+        <!-- <div class="mt-10 mx-auto text-center">
+          <a class="border border-green-600 px-10 py-2 rounded-md hover:bg-green-600 hover:text-white font-bold transition-all duration-200"
+            href="#">SELANJUTNYA</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- ! END: ARTIKEL -->
+
+  <!-- ! START: FOOTER -->
+  <div class="footer py-12 mt-10 bg-blue-500 text-white">
+    <div class="container mx-auto px-4">
+      <div class="footer-box flex justify-around md:flex-row flex-col lg:gap-0 gap-10">
+        <div class="box lg:w-[500px]">
+          <div class="logo flex gap-4 items-center">
+            <img class="w-16" src="assets/icon/HealthCheckup.png" alt="logo">
+            <h1 class="text-3xl font-bold text-black">KamiSehat</h1>
+          </div>
+          <div class="desc-footer">
+            <p class="text-base leading-loose text-black">
+              Jaga kesehatan anda dengan menjaga pola makan <br /> dan olahraga agar hidup anda lebih nyaman.
             </p>
-            <a class="px-8 py-3 rounded-md text-white hover:font-bold transition-all duration-200 bg-blue-500" href="#">TANYA DOKTER</a>
           </div>
-          <div class="box lg:w-1/2">
-            <img class="w-[600px] h-[400px] block ml-auto" src="assets/image/home-medical.svg" alt="icons8">
-          </div>
+        </div>
+        <div class="box flex flex-col gap-2 lg:w-[100px]">
+          <h4 class="text-xl font-bold text-black">Menu</h4>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Beranda</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Pelayanan</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Obat</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Artikel</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Dokter</a>
+        </div>
+        <div class="box flex flex-col gap-2 lg:w-[200px]">
+          <h4 class="text-xl font-bold text-black">Lebih Dekat</h4>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Karier</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">FAQ</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Privacy Policy</a>
+          <a href="#" class="text-black hover:underline transition-all duration-200">Settings</a>
         </div>
       </div>
     </div>
-    <!-- ! END: HOME -->
+  </div>
+  <!-- ! END: FOOTER -->
 
-    <!-- ! START: ARTIKEL -->
-    <div class="artike py-32">
-      <div class="container mx-auto px-4">
-        <div class="artikel-box">
-          <div class="box">
-            <h2 class="md:text-4xl text-2xl font-medium md:text-left text-center">Artikel Terbaru</h2>
-          </div>
-          <div class="box grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
-            <div class="artikel-one shadow-lg p-10">
-              <div class="img-artikel">
-                <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
-              </div>
-              <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN MENTAL</span>
-              <h4 class="mt-5 text-xl text-gray-900 font-bold">Mengenal Stoikisme dan Manfaatnya untuk Kesehatan</h4>
-              <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Salah satu karakteristik dari stoikisme adalah berfokus pada apa yang bisa kaamu kendalikan Cara ini diyakini...</p>
-            </div>
+  <!-- SCRIPT JS -->
+  <script src="../src/dist/js/script.js"></script>
+</body>
 
-            <div class="artikel-two shadow-lg p-10">
-              <div class="img-artikel">
-                <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
-              </div>
-              <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN MENTAL</span>
-              <h4 class="mt-5 text-xl text-gray-900 font-bold">Mengenal Stoikisme dan Manfaatnya untuk Kesehatan</h4>
-              <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Salah satu karakteristik dari stoikisme adalah berfokus pada apa yang bisa kaamu kendalikan Cara ini diyakini...</p>
-            </div>  
-
-            <div class="artikel-three shadow-lg p-10">
-              <div class="img-artikel">
-                <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
-              </div>
-              <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN MENTAL</span>
-              <h4 class="mt-5 text-xl text-gray-900 font-bold">Mengenal Stoikisme dan Manfaatnya untuk Kesehatan</h4>
-              <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Salah satu karakteristik dari stoikisme adalah berfokus pada apa yang bisa kaamu kendalikan Cara ini diyakini...</p>
-            </div>   
-
-            <div class="artikel-four shadow-lg p-10">
-              <div class="img-artikel">
-                <img class="w-[300px] h-[250px]" src="assets/image/healthbar.svg" alt="undraw.io">
-              </div>
-              <span class="py-2 px-3 rounded-md bg-blue-200 font-bold text-slate-500">KESEHATAN MENTAL</span>
-              <h4 class="mt-5 text-xl text-gray-900 font-bold">Mengenal Stoikisme dan Manfaatnya untuk Kesehatan</h4>
-              <p class="md:text-base text-sm mt-3 text-gray-500 font-bold">Salah satu karakteristik dari stoikisme adalah berfokus pada apa yang bisa kaamu kendalikan Cara ini diyakini...</p>
-            </div>        
-          </div>
-
-          <div class="mt-10 mx-auto text-center">
-            <a class="border border-green-600 px-10 py-2 rounded-md hover:bg-green-600 hover:text-white font-bold transition-all duration-200" href="#">SELANJUTNYA</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ! END: ARTIKEL -->
-
-    <!-- ! START: FOOTER -->
-    <div class="footer py-12 mt-10 bg-blue-500 text-white">
-      <div class="container mx-auto px-4">
-        <div class="footer-box flex justify-around md:flex-row flex-col lg:gap-0 gap-10">
-          <div class="box lg:w-[500px]">
-            <div class="logo flex gap-4 items-center">
-              <img class="w-16" src="assets/icon/HealthCheckup.png" alt="logo">
-              <h1 class="text-3xl font-bold text-black">KamiSehat</h1>
-            </div>
-            <div class="desc-footer">
-              <p class="text-base leading-loose text-black">
-                 Jaga kesehatan anda dengan menjaga pola makan <br/> dan olahraga agar hidup anda lebih nyaman.
-              </p>
-            </div>
-          </div>
-          <div class="box flex flex-col gap-2 lg:w-[100px]">
-            <h4 class="text-xl font-bold text-black">Menu</h4>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Beranda</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Pelayanan</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Obat</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Artikel</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Dokter</a>
-          </div>
-          <div class="box flex flex-col gap-2 lg:w-[200px]">
-            <h4 class="text-xl font-bold text-black">Lebih Dekat</h4>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Karier</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">FAQ</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Privacy Policy</a>
-            <a href="#" class="text-black hover:underline transition-all duration-200">Settings</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ! END: FOOTER -->
-
-    <!-- SCRIPT JS -->
-    <script src="../src/dist/js/script.js"></script>
-  </body>
 </html>
